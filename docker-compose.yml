@@ -7,23 +7,22 @@ services:
       - "8000:80"
 
   kiacook:
-    build: ./kiacook
+    image: arthurd277/kiacook:latest
     ports:
       - "8082:80"
 
   frontend:
-    build: ./frontend
+    image: arthurd277/frontend:latest
     ports:
       - "8083:80"
 
   firstappnext:
-    build: ./firstappnext
+    image: arthurd277/firstappnext:latest
     ports:
       - "8080:3000"
 
   rocket-ecommerce-v1.0.7:
-    build: ./rocket-ecommerce-v1.0.7
+    image: arthurd277/rocket-ecommerce-v1.0.7:latest
     ports:
       - "8084:5005"
-    environment:
 
