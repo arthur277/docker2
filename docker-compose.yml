@@ -26,9 +26,4 @@ services:
     ports:
       - "8084:5005"
     environment:
-      # Ajoute ici tes variables d'environnement Django si besoin
-      # DJANGO_SETTINGS_MODULE: "core.settings"
-      # SECRET_KEY: "xxx"
-      # DEBUG: "False"
-    # volumes:
-    #   - ./rocket-ecommerce-v1.0.7/static:/app/static  # Exemple si tu veux partager des fichiers statiques
+
